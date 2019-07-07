@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "Spiderman.3",
+    "password": "",
     "database": "maze_db",
     "host": "localhost",
     "dialect": "mysql"
