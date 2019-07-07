@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href="../styles/maze-1-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>game</title>
+</head>
+
+<body>
+        <div id="user-message"> Welcome to the amaze-ing project. Press Start to Begin!</div>
+        <div id="timer"></div>
+<div id="maze-1">
+        <div id='win-box'>
+                You have won! Please enter your tag to join the highscores.
+                <input id='user-tag'>
+                <button id='submit'>Submit</button>
+            </div>
+    <div id="small-box">
+        <div id="start"> Begin
+        </div>
+        <div class="obstacle-wrapper">
+        <div class="obstacle-1 obstacle "> </div>
+        <div class="obstacle-2 obstacle"></div>
+        <div class="obstacle-3 obstacle"></div>
+        <div class="obstacle-4 obstacle"></div>
+        <div class="obstacle-5 obstacle"></div>
+        <div class="obstacle-6 obstacle"></div>
+        <div class="obstacle-7 obstacle"></div>
+    </div>
+        <div id="goal"> Finish</div>
+    </div>
+    
+</div>
+<div class="highscores">
+   <p id='top-ten'> Top Ten</p> <br>
+    <div id="tags"> Tags
+        <div> example</div>
+    </div>
+    <div id="times">Time
+        <div>4.00</div>
+    </div>
+</div>
+<!--only change just to add a link-->
+<div id="ERmaze">
+   <h2>Try another maze!</h2>
+    <a href="maze2.html"><img class="ERmaze1" src="../img/ERmaze.PNG"></a>
+</div>
+
+</body>
+<script src="../javascript/index.js" type="text/javascript"></script>
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+
+</html>
